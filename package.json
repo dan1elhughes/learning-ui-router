@@ -1,0 +1,15 @@
+{
+  "name": "learning-ui-router",
+  "version": "0.1.0",
+  "description": "Learning Angular UI router",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan1elhughes/learning-ui-router.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dan1elhughes/learning-ui-router/issues"
+  },
+  "homepage": "https://github.com/dan1elhughes/learning-ui-router#readme"
+}
