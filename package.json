@@ -8,8 +8,10 @@
     "url": "git+https://github.com/dan1elhughes/learning-ui-router.git"
   },
   "scripts": {
+    "compile-js": "rollup -c",
     "dev": "nodemon --watch app --exec npm start",
-    "start": "rollup -c && http-server dist"
+    "server": "http-server public -p 8000 --silent",
+    "start": "npm run compile-js && npm run server"
   },
   "license": "MIT",
   "bugs": {
@@ -20,9 +22,10 @@
     "nodemon": "^1.10.2"
   },
   "dependencies": {
-    "angular": "^1.5.8",
+    "babel-preset-es2015-rollup": "^1.2.0",
     "http-server": "^0.9.0",
     "rollup": "^0.34.11",
+    "rollup-plugin-babel": "^2.6.1",
     "rollup-plugin-uglify": "^1.0.1"
   }
 }
