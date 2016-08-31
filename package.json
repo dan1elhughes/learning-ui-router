@@ -7,9 +7,17 @@
     "type": "git",
     "url": "git+https://github.com/dan1elhughes/learning-ui-router.git"
   },
+  "scripts": {
+    "build": "rollup src/main.js --output dist/main.js --sourcemap inline"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dan1elhughes/learning-ui-router/issues"
   },
-  "homepage": "https://github.com/dan1elhughes/learning-ui-router#readme"
+  "homepage": "https://github.com/dan1elhughes/learning-ui-router#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "rollup": "^0.34.11",
+    "rollup-plugin-babel": "^2.6.1"
+  }
 }
